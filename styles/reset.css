@@ -6,12 +6,17 @@
 /* Default margin */
 * {
     margin: 0;
-}
+    font-family: "IBM Plex Mono", monospace;}
 
 /* Accessible line-height & improved text rendering */
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* width: fit-content;
+    max-width: 100vh; */
 }
 
 /* Set default font size and remove padding */
@@ -42,6 +47,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* Create a root stacking context */
-  #root, #__next {
+#root, #__next {
     isolation: isolate;
-  }
+}
