@@ -1,0 +1,67 @@
+{
+    "produtos": [
+        {
+            "imagem": "./assets/products/stormtrooper.png",
+            "alt": "Stormtrooper",
+            "nome": "Stormtrooper",
+            "preco": "70,00",
+            "id": "1"
+        },
+        {
+            "imagem": "./assets/products/gameboy.svg",
+            "alt": "Game Boy Classic",
+            "nome": "Game Boy Classic",
+            "preco": "40,00",
+            "id": "2"
+        },
+        {
+            "imagem": "./assets/products/playstation.png",
+            "alt": "PlayStation 5",
+            "nome": "PlayStation 5",
+            "preco": "3000,00",
+            "id": "3"
+        },
+        {
+            "imagem": "./assets/products/nitendo-switch.png",
+            "alt": "Nintendo Switch",
+            "nome": "Nintendo Switch",
+            "preco": "1500,00",
+            "id": "4"
+        },
+        {
+            "imagem": "./assets/products/batman.png",
+            "alt": "Batman",
+            "nome": "Batman",
+            "preco": "300,00",
+            "id": "5"
+        },
+        {
+            "imagem": "./assets/products/iron-man.png",
+            "alt": "Homem de Ferro",
+            "nome": "Homem de Ferro",
+            "preco": "250,00",
+            "id": "6"
+        },
+        {
+            "imagem": "./assets/products/yoda.png",
+            "alt": "Baby Yoda",
+            "nome": "Baby Yoda",
+            "preco": "100,00",
+            "id": "7"
+        },
+        {
+            "imagem": "./assets/products/lego.png",
+            "alt": "Millennium Falcon",
+            "nome": "Millennium Falcon",
+            "preco": "250,00",
+            "id": "8"
+        },
+        {
+            "imagem": "./assets/products/hammer.png",
+            "alt": "Martelo do Thor",
+            "nome": "Martelo do Thor",
+            "preco": "800,00",
+            "id": "9"
+        }
+    ]
+}
