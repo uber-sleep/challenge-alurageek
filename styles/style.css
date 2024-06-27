@@ -53,20 +53,15 @@ img.header__logo {
 }
 
 .product-list {
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 78px 10px;
+
+    min-width: 608px;
     max-height: 50vh;
     padding: 15px;
     overflow: scroll;
     box-shadow: -12px 10px 5.8px 0px rgba(0, 0, 0, 0.25);
-}
-
-.product-list__row {
-    display: flex;
-    gap: 10px;
-    
-    margin-bottom: 78px;
-    width: 100%;
-    min-width: 608px;
 }
 
 .product-card {
@@ -114,8 +109,6 @@ img.header__logo {
     border: none;
     cursor: pointer;
 }
-
-
 
 /* Sessão Adicionar Produto */
 .add-product__wrapper {

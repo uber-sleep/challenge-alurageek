@@ -1,7 +1,12 @@
 /* Media Query Tablet */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     .main-section {
         grid-template-columns: 425px;
+    }
+
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+        min-width: 425px;
     }
 
     .product-list__wrapper {
@@ -11,7 +16,6 @@
     .add__product__wrapper {
         grid-row: 1;
     }
-
 }
 
 @media (max-width: 425px) {
@@ -19,5 +23,9 @@
         grid-template-columns: 300px;
     }
 
+    .product-list {
+        grid-template-columns: 1fr;
+        min-width: 200px;
+    }
 }
   
