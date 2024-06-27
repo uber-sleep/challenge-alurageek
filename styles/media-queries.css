@@ -1,0 +1,23 @@
+/* Media Query Tablet */
+ @media (max-width: 768px) {
+    .main-section {
+        grid-template-columns: 425px;
+    }
+
+    .product-list__wrapper {
+        grid-row: 2;
+    }
+
+    .add__product__wrapper {
+        grid-row: 1;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .main-section {
+        grid-template-columns: 300px;
+    }
+
+}
+  
