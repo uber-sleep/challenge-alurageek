@@ -34,7 +34,7 @@ async function postToApi(image, alt, name, price, id ) {
         });
 
         if (!response.ok) {
-            throw new Error("Não foi possivel enviar o vídeo!")
+            throw new Error("Não foi possivel enviar o produto!")
         };
 
         const data = await response.json();

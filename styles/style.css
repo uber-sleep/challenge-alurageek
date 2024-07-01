@@ -165,10 +165,12 @@ button.save {
     border: 3px solid var(--ocean-blue);
     background: var(--ocean-blue);
     color: var(--white);
+    cursor: pointer;
 }
 
 button.clear {
     border: 3px solid var(--ocean-blue);
+    cursor: pointer;
 }
 
 /* Footer */
