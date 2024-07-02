@@ -46,4 +46,26 @@ async function postToApi(image, alt, name, price, id ) {
     };
 };
 
-export const apiMethod = { getApi, postToApi };
+async function deleteFromApi(id) {
+    try {
+        const response = await fetch(`http://localhost:3000/produtos/${id}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error("Não foi possivel enviar o produto!")
+        };
+
+        const data = await response.json();
+        
+        return data;
+    } catch (e) {
+        console.error(e);
+        throw e;
+    };
+};
+
+export const apiMethod = { getApi, postToApi, deleteFromApi };
