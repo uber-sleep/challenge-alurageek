@@ -9,10 +9,9 @@ async function postNewCard(event) {
     const alt = "";
     const name = document.querySelector('[data-name]').value;
     const price = document.querySelector('[data-value]').value;
-    const id = Math.floor(Math.random() * 10).toString();
 
     try {
-        await apiMethod.postToApi(img, alt, name, price, id);
+        await apiMethod.postToApi(img, alt, name, price);
 
         alert("Produto enviado!");
 
