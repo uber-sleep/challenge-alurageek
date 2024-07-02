@@ -12,6 +12,11 @@ async function getApi() {
         
         return data;
     } catch (e){
+        const div = document.querySelector('[data-products]');
+        div.innerHTML = `
+        <div class="product-card__empty">
+            <p>Nenhum produto foi adicionado</p>
+        </div>`;
         console.error(e);
         throw e;
     };

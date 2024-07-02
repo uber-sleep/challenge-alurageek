@@ -110,6 +110,16 @@ img.header__logo {
     cursor: pointer;
 }
 
+/* Meus produtos - Vazio */
+.product-card__empty  {
+    grid-column: span 3;
+    padding: 2rem;
+}
+
+.product-card__empty p {
+    text-align: center;
+}
+
 /* Sessão Adicionar Produto */
 .add-product__wrapper {
     display: flex;
