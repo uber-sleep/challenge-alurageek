@@ -2,6 +2,7 @@ import { apiMethod } from "./connect.js";
 
 const form = document.querySelector('[data-form]');
 
+// Função para enviar um novo produto
 async function postNewCard(event) {
     event.preventDefault();
 
@@ -22,4 +23,5 @@ async function postNewCard(event) {
     };
 };
 
+// Adiciona um ouvinte de evento ao formulário para enviar o produto ao ser submetido
 form.addEventListener("submit", event => postNewCard(event));
