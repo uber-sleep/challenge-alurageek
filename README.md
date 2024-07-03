@@ -1,6 +1,6 @@
 # Alura Geek
 
-Alura Geek é uma aplicação web simples para gerenciar uma lista de produtos. Este projeto foi desenvolvido como parte do curso profissionalizante Oracle Next Education. A aplicação permite listar, adicionar e excluir produtos.
+Alura Geek é uma aplicação web simples para gerenciar uma lista de produtos. Este projeto foi desenvolvido como parte da trilha de Front-End do curso Oracle Next Education. A aplicação permite listar, adicionar e excluir produtos.
 
 ## Tecnologias Utilizadas
 
@@ -19,7 +19,7 @@ Alura Geek é uma aplicação web simples para gerenciar uma lista de produtos. 
 
 - `index.html`: Contém a estrutura HTML da aplicação.
 - `styles/`: Contém os arquivos CSS para estilização.
-- `assets/`: Contém as imagens e outros arquivos estáticos.
+- `assets/`: Contém as imagens.
 - `js/`: Contém os arquivos JavaScript que manipulam a lógica da aplicação.
 - `products.json`: Contém os dados da mock API.
 
